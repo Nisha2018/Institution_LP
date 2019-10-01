@@ -8,91 +8,109 @@
     <title>LP</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.npfs.co/uploads/template/313/826/publish/css/style.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <section class="admission grid-m">
-        <div class="bg-image"></div>
+        <div class="bg-image">
+            <img class="img" src="Images/bg.jpg" alt="banner">
+        </div>
         <div class="form-area grid-m">
             <div class="form-text grid-m">
-                <div class="form-title">
+                <div class="form-title font-20">
                     <p>Admissions 2019</p>
                 </div>
-                <div>
+                <div class="register">
                     <p>Register</p>
                 </div>
             </div>
             <div class="form grid-m">
-                <div>
-                    <input type="text" name="name" placeholder="Enter Name*" required>
-                </div>
-                <div>
-                    <input type="email" name="email" placeholder="Enter Email*" required>
-                </div>
-                <div>
-                    <input type="tel" name="number" placeholder="Enter Mobile Number*" required>
-                </div>
-                <div>
-                    <input type="text" name="city" placeholder="Enter City*" required>
-                </div>
-                <div>
-                    <input type="text" name="state" placeholder="Enter State*" required>
-                </div>
-                <div>
-                    <input type="text" name="qualification" placeholder="Last Qualification*" required>
-                </div>
-                <div>
-                    <p>Are you willing to take admission in Executive courses in 2019
-                        Please be sure, its not a job ad post</p>
-                    <label for="yes"><input type="radio" name="choice" id="yes"> </label>
-                    <label for="no"><input type="radio" name="choice" id="no"> </label>
-                </div>
-                <div class="note">
-                    <input type="checkbox" name="agree" id="agree">
-                    <label for="agree">
-                        I agree to receive information regarding my submitted application by signing up on ICRI *
-                    </label>
-                </div>
-                <div class="button">
-                    <button type="submit">
-                        Register
-                    </button>
-                </div>
+                <form class="grid-m" method="get" action="">
+                    <div>
+                        <input class="form-style" type="text" name="name" placeholder="Enter Name*" required>
+                    </div>
+                    <div>
+                        <input class="form-style" type="email" name="email" placeholder="Enter Email*" required>
+                    </div>
+                    <div>
+                        <input class="form-style" type="tel" name="number" placeholder="Enter Mobile Number*" required>
+                    </div>
+                    <div>
+                        <input class="form-style" type="text" name="city" placeholder="Enter City*" required>
+                    </div>
+                    <div>
+                        <input class="form-style" type="text" name="state" placeholder="Enter State*" required>
+                    </div>
+                    <div>
+                        <input class="form-style" type="text" name="qualification" placeholder="Last Qualification*" required>
+                    </div>
+                    <div class="font-14">
+                        <p>Are you willing to take admission in Executive courses in 2019</p>
+                        <label for="yes"><input type="radio" name="choice" id="yes">Yes </label>
+                        <label for="no"><input type="radio" name="choice" id="no">No </label>
+                    </div>
+                    <div class="font-14">
+                        <p>Please be sure, its not a job ad post</p>
+                        <label for="yes"><input type="radio" name="choice" id="yes">Yes </label>
+                        <label for="no"><input type="radio" name="choice" id="no">No </label>
+                    </div>
+                    <div class="note">
+                        <input type="checkbox" name="agree" id="agree">
+                        <label for="agree">
+                            I agree to receive information regarding my submitted application by signing up on ICRI *
+                        </label>
+                    </div>
+                    <div class="button">
+                        <button type="submit">
+                            Register
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
-    <section class="how grid-m">
-        <div class="heading">
+    <section class="how grid-m p-all">
+        <div class="heading font-24 font-bold color-red center">
             <p>How It Works</p>
         </div>
         <div class="content grid-m">
-            <input type="radio" name="toggle1" id="toggle1" checked>
-            <input type="radio" name="toggle2" id="toggle2">
-            <input type="radio" name="toggle3" id="toggle3">
-            <input type="radio" name="toggle4" id="toggle4">
+            <input type="radio" name="toggle" id="toggle1" checked>
+            <input type="radio" name="toggle" id="toggle2">
+            <input type="radio" name="toggle" id="toggle3">
+            <input type="radio" name="toggle" id="toggle4">
+            <span class="hide"></span>
             <div class="tab-area grid-m">
                 <div class="tab tab1">
-                    <div class="icon"></div>
+                    <div class="icon">
+                        <span class="howIcons font40 img-circle primaryColor"><i class="icon-document-icon"><span style="display:none;">&nbsp;</span></i></span>
+                    </div>
                     <div class="text">
                         <p>Register</p>
                     </div>
                 </div>
                 <div class="tab tab2">
-                    <div class="icon"></div>
+                    <div class="icon">
+                        <span class="howIcons font40 img-circle primaryColor"><i class="icon-gateway-icon"><span style="display:none;">&nbsp;</span></i></span>
+                    </div>
                     <div class="text">
                         <p>Make Payment</p>
                     </div>
                 </div>
                 <div class="tab tab3">
-                    <div class="icon"></div>
+                    <div class="icon">
+                        <span class="howIcons font40 img-circle primaryColor"><i class="icon-online-app-icon"><span style="display:none;">&nbsp;</span></i></span>
+                    </div>
                     <div class="text">
                         <p>Fill online Application Form</p>
                     </div>
                 </div>
                 <div class="tab tab4">
-                    <div class="icon"></div>
+                    <div class="icon">
+                        <span class="howIcons font40 img-circle primaryColor"><i aria-hidden="true" class="fa fa-upload"><span style="display:none;">&nbsp;</span></i></span>
+                    </div>
                     <div class="text">
                         <p>Submit Application</p>
                     </div>
@@ -100,22 +118,22 @@
             </div>
             <div class="labels grid-m">
                 <div>
-                    <label for="toggle1">1</label>
+                    <label for="toggle1"></label>
                 </div>
                 <div>
-                    <label for="toggle2">2</label>
+                    <label for="toggle2"></label>
                 </div>
                 <div>
-                    <label for="toggle3">3</label>
+                    <label for="toggle3"></label>
                 </div>
                 <div>
-                    <label for="toggle4">4</label>
+                    <label for="toggle4"></label>
                 </div>
             </div>
         </div>
     </section>
-    <section class="instructions">
-        <div class="heading">
+    <section class="instructions grid-m p-all">
+        <div class="heading font-24 font-bold color-red center">
             <p>Instructions</p>
         </div>
         <div class="content">
@@ -123,12 +141,12 @@
                 <li>The online application is for admission to programmes offered in ICRI.</li>
                 <li>Application Form Fee is Non-Refundable.</li>
                 <li>Email ID submitted at the time of registration will be used for all correspondences until enrolment is completed. Change in Email ID will NOT be permitted under any circumstances.</li>
-                <li>ICRI Query Management System:
+                <li><span class="font-bold">ICRI Query Management System:</span>
                     <p>Applicants are strongly advised to use the ICRI Query Management System (ICRI-QMS), rather than an email, to get a quick response.</p>
                     <div class="sub-list">
                         <ol>
                             <li>Register and verify your email ID</li>
-                            <li>Click on [Any Queries? Ask US] in your dashboard</li>
+                            <li>Click on <span class="font-bold">[Any Queries? Ask US]</span> in your dashboard</li>
                             <li>Select the query category and submit your query</li>
                         </ol>
                     </div>
@@ -136,8 +154,8 @@
             </ul>
         </div>
     </section>
-    <section class="programs grid-m">
-        <div class="heading">
+    <section class="programs grid-m p-all">
+        <div class="heading font-bold color-red font-24 center">
             <p>Programs Offered</p>
         </div>
         <div class="content grid-m">
@@ -370,9 +388,9 @@
             </div>
         </div>
     </section>
-    <section class="ICRI grid-m">
+    <section class="ICRI grid-m p-all">
         <div class="about grid-m">
-            <div class="heading">
+            <div class="heading font-24 font-bold color-red center">
                 <p>About ICRI</p>
             </div>
             <div class="content">
@@ -391,11 +409,11 @@
                 </div>
             </div>
         </div>
-        <div class="why">
-            <div class="heading">
+        <div class="why grid-m">
+            <div class="heading font-24 font-bold color-red center">
                 <p>Why ICRI</p>
             </div>
-            <div class="content">
+            <div class="content grid-m">
                 <div>
                     <p>India’s most awarded institution in Careers of Tomorrow</p>
                 </div>
@@ -411,189 +429,221 @@
             </div>
         </div>
     </section>
-    <section class="awards grid-m">
-        <div class="heading">
+    <section class="awards grid-m p-all">
+        <div class="heading font-24 font-bold color-red center">
             <p>Awards & Accolades</p>
         </div>
-        <div class="content">
-            <input type="radio" name="control1" id="control1" checked>
-            <input type="radio" name="control2" id="control2">
-            <input type="radio" name="control3" id="control3">
+        <div class="content grid-m">
+            <input type="radio" name="control" id="control1" checked>
+            <input type="radio" name="control" id="control2">
+            <input type="radio" name="control" id="control3">
             <div class="tab-area">
                 <div class="slider slider1">
-                    <div class="pic pic1">
-                        <img src="Images/awards1.jpg" alt="pic">
+                    <div class="col1">
+                        <div class="pic pic1">
+                            <img src="Images/awards1.jpg" alt="pic">
+                        </div>
+                        <div class="pic pic2">
+                            <img src="Images/awards2.jpg" alt="pic">
+                        </div>
                     </div>
-                    <div class="pic pic2">
-                        <img src="Images/awards2.jpg" alt="pic">
-                    </div>
-                    <div class="pic pic3">
-                        <img src="Images/awards3.jpg" alt="pic">
-                    </div>
-                    <div class="pic pic4">
-                        <img src="Images/awards4.jpg" alt="pic">
+                    <div class="col2">
+                        <div class="pic pic3">
+                            <img src="Images/awards3.jpg" alt="pic">
+                        </div>
+                        <div class="pic pic4">
+                            <img src="Images/awards4.jpg" alt="pic">
+                        </div>
                     </div>
                 </div>
                 <div class="slider slider2">
-                    <div class="pic pic5">
-                        <img src="Images/awards5.jpg" alt="pic">
+                    <div class="col1">
+                        <div class="pic pic5">
+                            <img src="Images/awards5.jpg" alt="pic">
+                        </div>
+                        <div class="pic pic6">
+                            <img src="Images/awards6.jpg" alt="pic">
+                        </div>
                     </div>
-                    <div class="pic pic6">
-                        <img src="Images/awards6.jpg" alt="pic">
-                    </div>
-                    <div class="pic pic7">
-                        <img src="Images/awards7.jpg" alt="pic">
-                    </div>
-                    <div class="pic pic8">
-                        <img src="Images/awards8.jpg" alt="pic">
+                    <div class="col2">
+                        <div class="pic pic7">
+                            <img src="Images/awards7.jpg" alt="pic">
+                        </div>
+                        <div class="pic pic8">
+                            <img src="Images/awards8.jpg" alt="pic">
+                        </div>
                     </div>
                 </div>
                 <div class="slider slider3">
-                    <div class="pic pic9">
-                        <img src="Images/awards9.jpg" alt="pic">
+                    <div class="col1">
+                        <div class="pic pic9">
+                            <img src="Images/awards9.jpg" alt="pic">
+                        </div>
+                        <div class="pic pic10">
+                            <img src="Images/awards10.jpg" alt="pic">
+                        </div>
                     </div>
-                    <div class="pic pic10">
-                        <img src="Images/awards10.jpg" alt="pic">
-                    </div>
-                    <div class="pic pic11">
-                        <img src="Images/awards11.jpg" alt="pic">
-                    </div>
-                    <div class="pic pic12">
-                        <img src="Images/awards1.jpg" alt="pic">
+                    <div class="col2">
+                        <div class="pic pic11">
+                            <img src="Images/awards11.jpg" alt="pic">
+                        </div>
+                        <div class="pic pic12">
+                            <img src="Images/awards1.jpg" alt="pic">
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="labels grid-m">
                 <div>
-                    <label for="control1">1</label>
+                    <label for="control1"></label>
                 </div>
                 <div>
-                    <label for="control2">2</label>
+                    <label for="control2"></label>
                 </div>
                 <div>
-                    <label for="control3">3</label>
+                    <label for="control3"></label>
                 </div>
             </div>
         </div>
     </section>
-    <section class="recruiters">
-        <div class="heading">
+    <section class="recruiters p-all grid-m">
+        <div class="heading font-24 font-bold color-red center">
             <p>Recruiters
             </p>
         </div>
-        <div class="content">
-            <input type="radio" name="one" id="one" checked>
-            <input type="radio" name="two" id="two">
-            <input type="radio" name="three" id="three">
-            <input type="radio" name="four" id="four">
-            <input type="radio" name="five" id="five">
-            <div class="tab-area">
-                <div class="recruiter recruiter1">
-                    <div>
-                    	<img src="Images/recruiter1.jpg" alt="logo">
+        <div class="content grid-m">
+            <input type="radio" name="recruiter" id="one" checked>
+            <input type="radio" name="recruiter" id="two">
+            <input type="radio" name="recruiter" id="three">
+            <input type="radio" name="recruiter" id="four">
+            <input type="radio" name="recruiter" id="five">
+            <div class="tab-area grid-m">
+                <div class="row">
+                    <div class="col col1">
+                        <div class="recruiter recruiter1">
+                            <img src="Images/recruiter1.jpg" alt="logo">
+                        </div>
+                        <div class="recruiter recruiter2">
+                            <img src="Images/recruiter2.jpg" alt="logo">
+                        </div>
+                        <div class="recruiter recruiter3">
+                            <img src="Images/recruiter3.jpg" alt="logo">
+                        </div>
                     </div>
-                    <div>
-                    	<img src="Images/recruiter2.jpg" alt="logo">
-                    </div>
-                    <div>
-                    	<img src="Images/recruiter3.jpg" alt="logo">
-                    </div>
-                    <div>
-                    	<img src="Images/recruiter4.jpg" alt="logo">
-                    </div>
-                    <div>
-                    	<img src="Images/recruiter5.jpg" alt="logo">
-                    </div>
-                    <div>
-                    	<img src="Images/recruiter6.jpg" alt="logo">
-                    </div>
-                </div>
-                <div class="recruiter recruiter2">
-                    <div>
-                    	<img src="Images/recruiter7.jpg" alt="logo">
-                    </div>
-                    <div>
-                    	<img src="Images/recruiter8.jpg" alt="logo">
-                    </div>
-                    <div>
-                    	<img src="Images/recruiter9.jpg" alt="logo">
-                    </div>
-                    <div>
-                    	<img src="Images/recruiter10.jpg" alt="logo">
-                    </div>
-                    <div>
-                    	<img src="Images/recruiter11.jpg" alt="logo">
-                    </div>
-                    <div>
-                    	<img src="Images/recruiter12.jpg" alt="logo">
+                    <div class="col col2">
+                        <div class="recruiter recruiter4">
+                            <img src="Images/recruiter4.jpg" alt="logo">
+                        </div>
+                        <div class="recruiter recruiter5">
+                            <img src="Images/recruiter5.jpg" alt="logo">
+                        </div>
+                        <div class="recruiter recruiter6">
+                            <img src="Images/recruiter6.jpg" alt="logo">
+                        </div>
                     </div>
                 </div>
-                <div class="recruiter recruiter3">
-                    <div>
-                    	<img src="Images/recruiter13.jpg" alt="logo">
+                <div class="row">
+                    <div class="col col3">
+                        <div class="recruiter recruiter7">
+                            <img src="Images/recruiter7.jpg" alt="logo">
+                        </div>
+                        <div class="recruiter recruiter8">
+                            <img src="Images/recruiter8.jpg" alt="logo">
+                        </div>
+                        <div class="recruiter recruiter9">
+                            <img src="Images/recruiter9.jpg" alt="logo">
+                        </div>
                     </div>
-                    <div>
-                    	<img src="Images/recruiter14.jpg" alt="logo">
-                    </div>
-                    <div>
-                    	<img src="Images/recruiter15.jpg" alt="logo">
-                    </div>
-                    <div>
-                    	<img src="Images/recruiter2.jpg" alt="logo">
-                    </div>
-                    <div>
-                    	<img src="Images/recruiter2.jpg" alt="logo">
-                    </div>
-                    <div>
-                    	<img src="Images/recruiter2.jpg" alt="logo">
+                    <div class="col col4">
+                        <div class="recruiter recruiter10">
+                            <img src="Images/recruiter10.jpg" alt="logo">
+                        </div>
+                        <div class="recruiter recruiter11">
+                            <img src="Images/recruiter11.jpg" alt="logo">
+                        </div>
+                        <div class="recruiter recruiter12">
+                            <img src="Images/recruiter12.jpg" alt="logo">
+                        </div>
                     </div>
                 </div>
-                <div class="recruiter recruiter4">
-                    <div>
-                    	<img src="Images/recruiter2.jpg" alt="logo">
+                <div class="row">
+                    <div class="col col5">
+                        <div class="recruiter recruiter13">
+                            <img src="Images/recruiter13.jpg" alt="logo">
+                        </div>
+                        <div class="recruiter recruiter14">
+                            <img src="Images/recruiter14.jpg" alt="logo">
+                        </div>
+                        <div class="recruiter recruiter15">
+                            <img src="Images/recruiter15.jpg" alt="logo">
+                        </div>
                     </div>
-                    <div>
-                    	<img src="Images/recruiter2.jpg" alt="logo">
+                    <div class="col col6">
+                        <div class="recruiter recruiter16">
+                            <img src="Images/recruiter16.jpg" alt="logo">
+                        </div>
+                        <div class="recruiter recruiter17">
+                            <img src="Images/recruiter17.jpg" alt="logo">
+                        </div>
+                        <div class="recruiter recruiter18">
+                            <img src="Images/recruiter18.jpg" alt="logo">
+                        </div>
                     </div>
-                    <div><img src="Images/recruiter2.jpg" alt="logo"></div>
-                    <div><img src="Images/recruiter2.jpg" alt="logo"></div>
-                    <div><img src="Images/recruiter2.jpg" alt="logo"></div>
-                    <div><img src="Images/recruiter2.jpg" alt="logo"></div>
                 </div>
-                <div class="recruiter recruiter5">
-                    <div><img src="Images/recruiter2.jpg" alt="logo"></div>
-                    <div><img src="Images/recruiter2.jpg" alt="logo"></div>
-                    <div><img src="Images/recruiter2.jpg" alt="logo"></div>
-                    <div><img src="Images/recruiter2.jpg" alt="logo"></div>
-                    <div><img src="Images/recruiter2.jpg" alt="logo"></div>
-                    <div><img src="Images/recruiter2.jpg" alt="logo"></div>
+                <div class="row">
+                    <div class="col col7">
+                        <div class="recruiter recruiter19">
+                            <img src="Images/recruiter19.jpg" alt="logo">
+                        </div>
+                        <div class="recruiter recruiter20">
+                            <img src="Images/recruiter20.jpg" alt="logo">
+                        </div>
+                        <div class="recruiter recruiter21"><img src="Images/recruiter22.jpg" alt="logo"></div>
+                    </div>
+                    <div class="col col8">
+                        <div class="recruiter recruiter22"><img src="Images/recruiter23.jpg" alt="logo"></div>
+                        <div class="recruiter recruiter23"><img src="Images/recruiter24.jpg" alt="logo"></div>
+                        <div class="recruiter recruiter24"><img src="Images/recruiter25.jpg" alt="logo"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col9">
+                        <div class="recruiter recruiter25"><img src="Images/recruiter26.jpg" alt="logo"></div>
+                        <div class="recruiter recruiter26"><img src="Images/recruiter27.jpg" alt="logo"></div>
+                        <div class="recruiter recruiter27"><img src="Images/recruiter28.jpg" alt="logo"></div>
+                    </div>
+                    <div class="col col10">
+                        <div class="recruiter recruiter28"><img src="Images/recruiter29.jpg" alt="logo"></div>
+                        <div class="recruiter recruiter29"><img src="Images/recruiter30.jpg" alt="logo"></div>
+                        <div class="recruiter recruiter30"><img src="Images/recruiter2.jpg" alt="logo"></div>
+                    </div>
                 </div>
             </div>
             <div class="labels grid-m">
                 <div>
-                    <label for="one">1</label>
+                    <label for="one"></label>
                 </div>
                 <div>
-                    <label for="two">2</label>
+                    <label for="two"></label>
                 </div>
                 <div>
-                    <label for="three">3</label>
+                    <label for="three"></label>
                 </div>
                 <div>
-                    <label for="four">4</label>
+                    <label for="four"></label>
                 </div>
                 <div>
-                    <label for="five">5</label>
+                    <label for="five"></label>
                 </div>
             </div>
         </div>
     </section>
     <footer class="footer grid-m">
-        <div>
-        	<img src="Images/footer1.png" alt="pic">
+        <div class="left">
+            <img src="Images/footer1.png" alt="pic">
         </div>
-        <div>
-        	<img src="Images/logo.png" alt="pic">
+        <div class="right">
+            <img src="Images/logo.png" alt="pic">
         </div>
     </footer>
 </body>
